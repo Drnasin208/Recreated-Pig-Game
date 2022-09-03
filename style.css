@@ -45,9 +45,10 @@ main {
 }
 
 .player {
+  
   display: flex;
   flex: 50%;
-  padding: 8rem;
+  padding: 6rem;
   
   flex-direction: column;
   align-items: center;
@@ -64,6 +65,7 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-left:5px;
+  padding-top:2rem;
   margin-bottom: 1rem;
   transition: 0.75s;
 }
@@ -108,8 +110,9 @@ main {
   flex: 60%;
 }
 .player--active .name {
-  
+  padding-top:1px;
   margin-left:15px;
+  
   font-weight: 700;
   font-size: 50px;
   border-bottom: 4px solid red;
@@ -142,6 +145,8 @@ label{
 }
 
 .current {
+  position: relative;
+  top:-40px;
    opacity: 1;
   background-color: #0ff02d;
   opacity: 0.5;
@@ -154,8 +159,9 @@ label{
 }
 
 .current-label {
+
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  /* margin-top: 4rem; */
   font-size: 1.7rem;
   color: #ddd;
 }
@@ -183,7 +189,7 @@ label{
   transition: all 0.2s;
    border:2px solid yellow;
   background-color: white;
-  background-color: rgba(255, 255, 255, 0.6);
+  /* background-color: rgba(255, 255, 255, 0.6); */
   backdrop-filter: blur(10px);
 
   padding: 0.7rem 2.5rem;
@@ -289,12 +295,6 @@ label{
   font-size: 5rem;
     }
 
-   .player--active .name{
-  flex: 60%;
-  font-size: 46px;
-  margin-left:-10%;
-  } 
-
    .winner {
   background: rgb(248, 15, 27);
   padding: 10px;
@@ -325,29 +325,28 @@ label{
   text-align: center;
   transition: all 0.75s;
 }
-.btn {
+ .btn {
   position: absolute;
-  transform: scale(0.5);
   left: 50%;
-   transform:translateX(-50%); 
+  transform: translateX(-50%); 
   color: #444;
   background: none;
   border: none;
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 400;
   transition: all 0.2s;
    border:2px solid yellow;
   background-color: white;
-  background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
+  padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  z-index: 10;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
-  padding:0 3px 1px 2px;
+  padding:1px 3px;
 }
+
 .btn--switch {
   z-index: -10;
   transform: scale(0.5);
