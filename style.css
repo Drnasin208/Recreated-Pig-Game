@@ -361,7 +361,10 @@ label{
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
   padding:1px 3px;
 }
-
+.btn--new {
+ 
+  margin-bottom:10px;
+}
 .btn--switch {
   z-index: -10;
   transform: scale(0.5);
