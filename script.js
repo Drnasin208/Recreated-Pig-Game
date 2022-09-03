@@ -51,14 +51,15 @@ const init = function () {
   btnGoal.classList.remove('hidden');
   btnNew.style.transform = 'scale(1)';
   btnNew.style.border = '2px solid yellow';
-  btnNew.style.marginTop = '20px';
+  btnNew.style.marginTop = '10px';
    btnNew.style.marginLeft = '-76px';
   btnNew.style.background = 'white';
   btnNew.style.paddingRight = '3px';
 
-  // diceEl.classList.add('hidden');
-
+  
   diceEl.classList.remove('fadeout');
+  diceEl.classList.add('newDice');
+
   //diceEl.style.marginLeft = `2%`;
   player0El.classList.remove('player--winner');
   player1El.classList.remove('player--winner');
