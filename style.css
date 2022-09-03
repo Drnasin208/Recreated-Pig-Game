@@ -108,7 +108,7 @@ main {
 
 .player--active {
   /* background-color:#e4561e; */
-  flex: 60%;
+  flex: 70%;
 }
 .player--active .score {
  display: inline;
