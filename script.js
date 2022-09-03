@@ -58,7 +58,6 @@ const init = function () {
 
   
   diceEl.classList.remove('fadeout');
-  diceEl.classList.add('newDice');
 
   //diceEl.style.marginLeft = `2%`;
   player0El.classList.remove('player--winner');
@@ -102,10 +101,12 @@ btnRoll.addEventListener('click', function () {
     diceEl.src = `dice-${diceNumber}.png`;
     diceEl.style.border = `12px double rgba(${boja},${boja2},${boja3})`;
     diceEl.style.borderRadius = `10px`;
+    diceEl.style.transform = `scale(0.8)`;
     diceEl.style.transform = `rotate(${ugao}deg)`;
     diceEl.style.boxShadow = ` 5px 8px 3px #30f8f8`;
     //  diceEl.style.position = `absolute`;
-    diceEl.style.marginLeft = `-16%`;
+    // diceEl.style.marginLeft = `-140px`;
+    
 
     // Check for rolled 1:if true,
     if (diceNumber !== 1) {
