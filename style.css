@@ -68,6 +68,7 @@ main {
   padding-top:2rem;
   margin-bottom: 1rem;
   transition: 0.75s;
+  opacity: 0.4;
 }
 
 .score {
@@ -117,13 +118,14 @@ main {
 .player--active .name {
   padding-top:1px;
   margin-left:15px;
-  
+  opacity: 1;
   font-weight: 700;
   font-size: 50px;
   border-bottom: 4px solid red;
   transition: 0.75s;
 }
 .player--active .current-score {
+  box-sizing: border-box;
   display: inline;
   padding:0 16px;
   border-radius: 3px;
@@ -158,9 +160,9 @@ label{
 .current {
   position: relative;
   top:-40px;
-   opacity: 1;
+   opacity: 0.4;
   background-color: #0ff02d;
-  opacity: 0.5;
+  
   border-radius: 9px;
   color: #fff;
   width: 65%;
