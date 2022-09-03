@@ -153,8 +153,16 @@ label{
 }
 
 .player--active .current {
+  transform: scale(0.9);
   opacity: 1;
   font-size: 5rem;
+  color: rgb(243, 237, 237);
+  font-weight: 700;
+}
+.player--active .current-label {
+  opacity: 1;
+  color: rgb(12, 12, 12);
+  font-weight: 700;
 }
 
 .current {
