@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  height: 100vh;
+  height: 96vh;
   
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   background-image:url("https://images.unsplash.com/photo-1625888791210-40ea41c1d0f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm91bGV0dGUlMjB3aGVlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
@@ -35,7 +35,7 @@ main {
   gap: 2rem; */
   
   width: 100rem;
-  height: 57.5rem;
+  height: 59rem;
   background-color: rgba(135, 200, 209, 0.829); 
   backdrop-filter: blur(200px);
   filter: blur(); 
