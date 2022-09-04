@@ -35,7 +35,7 @@ main {
   gap: 2rem; */
   
   width: 100rem;
-  height: 90vh;
+  height: 57.5rem;
   background-color: rgba(135, 200, 209, 0.829); 
   backdrop-filter: blur(200px);
   filter: blur(); 
@@ -323,9 +323,9 @@ label{
 
  @media (max-width:768px){
   
-  main{
-    height: 100vh;
-  }
+  /* main{
+    height: 90vh;
+  } */
     .score {
   opacity:0.5;
   font-size: 5rem;
