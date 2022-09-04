@@ -237,7 +237,7 @@ label{
   position:absolute;
   padding:4px;
   top:10px;
-  margin-left:-5em;
+  top:2rem;
 }
 
 .btn--roll {
@@ -371,6 +371,9 @@ label{
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
   padding:1px 3px;
 }
+.btn--new {
+  top:2rem;
+}
 .btn--switch {
   z-index: -10;
   transform: scale(0.5);
@@ -378,7 +381,7 @@ label{
   
 }
 .btn--goal{
-  top: 51rem;
+  top: 52rem;
   border-radius:2px;
   border:2px solid red;
   background:transparent;
@@ -389,7 +392,7 @@ label{
   margin-left: -10%;
   /* transform: translateX(-150%);   */
  
-  height: 10rem;
+  height: 10rem;;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 .player{
