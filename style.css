@@ -295,12 +295,13 @@ label{
 }
 
 .player--winner .name {
-  margin-top:20px;
+  margin-top:30px;
   font-weight: 700;
-  text-shadow:3px 3px 2px rgb(155, 148, 148);
-  color: #e41ea2;
+  padding:10px 10px 10px 10px;
+  text-shadow:3px 3px 2px rgb(77, 72, 72);
+  color: #e7d8e2;
   border: none;
-  background: rgb(119, 114, 114) ;
+  background: rgb(119, 114, 114,0.6) ;
   font-size: 50px;
   transition: 1.2s;
   z-index: 10;
@@ -309,8 +310,7 @@ label{
 .player--winner .score {
    color: #dbdce6;
   background: rgb(119, 114, 114) ;
-  padding-left:10px;
-  padding-right:10px;
+  padding:0 12px 0 12px;
   border-radius:20px;
   font-size: 70px;
 }
@@ -403,17 +403,15 @@ label{
 .player--winner .name {
   position: relative;
    padding-left:40px;
-   margin-left:60px;
-   margin-right:60px;
+   margin:40px 60px 10px 60px;
    display: block;
-  padding-top:20px;
+  padding:5px 10px 5px 30px;
   font-weight: 700;
-  text-shadow:3px 3px 2px rgb(179, 12, 12);
-  color: #49c0ac;
+  text-shadow:3px 3px 2px rgb(77, 72, 72);
+ color: #e7d8e2;
   border: none;
-  font-weight: 900;
-  background: rgb(87, 77, 75,0.4);
-  border-radius: 150px;
+  background: rgb(119, 114, 114,0.6) ;
+  border-radius: 20px;
   font-size: 30px;
   transition: 1.2s;
   z-index: 10;
