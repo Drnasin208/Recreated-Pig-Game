@@ -356,7 +356,7 @@ label{
   left: 50%;
   transform: translateX(-50%); 
   color: #444;
- 
+ box-shadow:none;
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -365,7 +365,7 @@ label{
   transition: all 0.2s;
    border:4px double yellow;
   background-color: white;
-  padding: 0.7rem 2.5rem;
+  padding: 0.7rem;
   border-radius: 50rem;
  
 }
@@ -388,6 +388,7 @@ label{
  
 .btn:focus { 
   outline: none; 
+  box-shadow:none;
    }
    
 .dice {
