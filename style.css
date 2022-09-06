@@ -385,7 +385,7 @@ label{
   background:transparent;
   padding:1px;
 }
-  .btn:active,
+ 
 .btn:focus { 
   outline: none; 
    }
