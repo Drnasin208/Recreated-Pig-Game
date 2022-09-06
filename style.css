@@ -217,7 +217,7 @@ label{
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-   border:4px double yellow;
+   border:2px solid yellow;
   background-color: white;
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
@@ -259,12 +259,12 @@ label{
 .btn:active {
   transform: translate(-50%, 3px);
   box-shadow:none;
-  border-style: solid
+  border-style: solid;
 }
 
 .btn:focus { outline: none;
   box-shadow:none;
-  border-style: solid
+  border-style: solid;
 }
 
 .newDice{
@@ -358,14 +358,13 @@ label{
   left: 50%;
   transform: translateX(-50%); 
   color: #444;
- box-shadow:none;
+  box-shadow:none;
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-   border:4px double yellow;
   background-color: white;
   padding: 0.2rem 0.7rem;
   border-radius: 50rem;
