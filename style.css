@@ -219,13 +219,9 @@ label{
   transition: all 0.2s;
    border:4px double yellow;
   background-color: white;
-  
-  
- 
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  
-   
+ 
 }
 
 .btn::first-letter {
@@ -265,6 +261,7 @@ label{
 }
 .btn:active,
 .btn:focus { outline: none; };
+
 .newDice{
   position: absolute; 
   left:60%;
@@ -351,26 +348,23 @@ label{
   text-align: center;
   transition: all 0.75s;
 }
- .btn {
+.btn {
   position: absolute;
   left: 50%;
   transform: translateX(-50%); 
   color: #444;
-  background: none;
-  border: none;
+ 
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-   border:2px solid yellow;
+   border:4px double yellow;
   background-color: white;
-  backdrop-filter: blur(10px);
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
-  padding:1px 3px;
+ 
 }
 .btn--new {
   top:2rem;
@@ -388,6 +382,11 @@ label{
   background:transparent;
   padding:1px;
 }
+  .btn:active,
+.btn:focus { 
+  outline: none; 
+   }
+   
 .dice {
   margin-top: 12%;
   margin-left: -10%;
