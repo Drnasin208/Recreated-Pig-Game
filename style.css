@@ -369,6 +369,9 @@ label{
   background-color: white;
   padding: 0.2rem 0.7rem;
   border-radius: 50rem;
+  background-blend-mode: none;
+  
+     border-style: none;
  
 }
 .btn--new {
@@ -387,17 +390,13 @@ label{
   background:transparent;
   padding:1px;
 }
-   .btn:active{
-     border:none;
-     background:none;
-      outline: none; 
-     box-shadow:none;
-     border-style: none;
-   }
+  
+
 .btn:focus { 
   outline: none; 
   box-shadow:none;
   border-style: none;
+  background-blend-mode: none;
    }
    
 .dice {
