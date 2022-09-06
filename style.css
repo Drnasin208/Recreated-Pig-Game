@@ -221,7 +221,7 @@ label{
   background-color: white;
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
- 
+ border-style: solid;
 }
 
 .btn::first-letter {
@@ -259,10 +259,12 @@ label{
 .btn:active {
   transform: translate(-50%, 3px);
   box-shadow:none;
+  border-style: solid
 }
 
 .btn:focus { outline: none;
   box-shadow:none;
+  border-style: solid
 }
 
 .newDice{
@@ -365,7 +367,7 @@ label{
   transition: all 0.2s;
    border:4px double yellow;
   background-color: white;
-  padding: 0.7rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 50rem;
  
 }
@@ -385,7 +387,11 @@ label{
   background:transparent;
   padding:1px;
 }
- 
+   .btn:active{
+      outline: none; 
+  box-shadow:none;
+     border-style: solid;
+   }
 .btn:focus { 
   outline: none; 
   box-shadow:none;
