@@ -388,13 +388,16 @@ label{
   padding:1px;
 }
    .btn:active{
+     border:none;
+     background:none;
       outline: none; 
-  box-shadow:none;
-     border-style: solid;
+     box-shadow:none;
+     border-style: none;
    }
 .btn:focus { 
   outline: none; 
   box-shadow:none;
+  border-style: none;
    }
    
 .dice {
