@@ -201,6 +201,12 @@ label{
 }
 
 /* ABSOLUTE POSITIONED ELEMENTS */
+
+
+
+.btn:focus {
+  outline: none;
+}
 .btn {
   position: absolute;
   left: 50%;
