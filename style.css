@@ -201,16 +201,14 @@ label{
 }
 
 /* ABSOLUTE POSITIONED ELEMENTS */
-
-
-
-
 .btn {
   position: absolute;
   left: 50%;
   transform: translateX(-50%); 
   color: #444;
-   box-shadow:none;
+  background: none;
+  
+  border: none;
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -219,8 +217,13 @@ label{
   transition: all 0.2s;
    border:2px solid yellow;
   background-color: white;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  backdrop-filter: blur(10px);
+
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
 
 .btn::first-letter {
   font-size: 2.4rem;
@@ -235,7 +238,7 @@ label{
   position:absolute;
   padding:4px;
   top:10px;
-  top:2rem;
+  top:1rem;
 }
 
 .btn--roll {
@@ -253,17 +256,15 @@ label{
   padding:1px;
   cursor: inherit;
 }
+
 .btn:active {
   transform: translate(-50%, 3px);
-  box-shadow:none;
-  border-style: solid;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
-
-.btn:focus { outline: none;
-  box-shadow:none;
+.btn:focus {
+  outline: none;
 }
-
 .newDice{
   position: absolute; 
   left:60%;
@@ -284,7 +285,7 @@ label{
 
   transform: translateX(-150%);
   transform: scale(0.8);
-  
+  height: 12rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 
@@ -350,22 +351,27 @@ label{
   text-align: center;
   transition: all 0.75s;
 }
-.btn {
+ .btn {
   position: absolute;
   left: 50%;
   transform: translateX(-50%); 
   color: #444;
-  box-shadow:none;
+  background: none;
+  border: none;
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
+   border:2px solid yellow;
   background-color: white;
-  padding: 0.2rem 0.7rem;
+  backdrop-filter: blur(10px);
+  padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-   }
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  padding:1px 3px;
+}
 .btn--new {
   top:2rem;
 }
@@ -382,7 +388,6 @@ label{
   background:transparent;
   padding:1px;
 }
- 
 .dice {
   margin-top: 12%;
   margin-left: -10%;
