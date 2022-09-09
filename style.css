@@ -366,7 +366,7 @@ label{
   transition: all 0.2s;
    border:2px solid yellow;
   background-color: white;
-  backdrop-filter: blur(10px);
+  
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
