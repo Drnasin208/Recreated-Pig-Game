@@ -382,10 +382,10 @@ label{
   padding:1px;
 }
 .dice {
-  margin-top: 12%;
+  margin-top: 14%;
   margin-left: -10%;
   /* transform: translateX(-150%);   */
- 
+ transform:scale(0.8);
   height: 10rem;;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
