@@ -190,7 +190,7 @@ btnHold.addEventListener('click', function () {
       // switch to the next player
       switchPlayer();
     }
-  }
-});
+   }
+ });
 
 btnNew.addEventListener('click', init);
