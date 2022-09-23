@@ -99,7 +99,7 @@ btnRoll.addEventListener('click', function () {
     diceEl.classList.remove('hidden');
 
     diceEl.src = `dice-${diceNumber}.png`;
-    diceEl.style.border = `10px double rgba(${boja},${boja2},${boja3})`;
+    diceEl.style.border = `10px solid rgba(${boja},${boja2},${boja3})`;
     diceEl.style.borderRadius = `10px`;
     diceEl.style.scale = `0.8`;
     diceEl.style.transform = `rotate(${ugao}deg)`;
